@@ -61,8 +61,8 @@ class Crawling:
 
 if __name__ == '__main__':
     while True:
-        userName = 'Y20180084'
-        passward = '101325'
+        userName = '改成你的学号'
+        passward = '改成你的密码'
         # 登录
         spider = Crawling(userName, passward)
         homePage = spider.login()
